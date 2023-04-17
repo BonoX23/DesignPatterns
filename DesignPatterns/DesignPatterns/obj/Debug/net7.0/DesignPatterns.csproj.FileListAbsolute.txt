@@ -13,3 +13,11 @@ C:\Users\ricardo.bono\Desktop\Refac\DesignPatterns\DesignPatterns\obj\Debug\net7
 C:\Users\ricardo.bono\Desktop\Refac\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.pdb
 C:\Users\ricardo.bono\Desktop\Refac\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.genruntimeconfig.cache
 C:\Users\ricardo.bono\Desktop\Refac\DesignPatterns\DesignPatterns\obj\Debug\net7.0\ref\DesignPatterns.dll
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.csproj.AssemblyReference.cache
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.AssemblyInfoInputs.cache
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.AssemblyInfo.cs
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.dll
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\refint\DesignPatterns.dll
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.pdb

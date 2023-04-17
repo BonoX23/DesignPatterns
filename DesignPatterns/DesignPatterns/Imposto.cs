@@ -8,6 +8,6 @@ namespace DesignPatterns
 {
     public interface Imposto
     {
-        double Calcula(Orcamento orçamento);
+        public double Calcula(Orcamento orçamento);
     }
 }
