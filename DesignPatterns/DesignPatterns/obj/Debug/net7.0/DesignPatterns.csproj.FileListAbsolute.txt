@@ -21,3 +21,10 @@ C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatte
 C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.dll
 C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\refint\DesignPatterns.dll
 C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.pdb
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\net7.0\DesignPatterns.exe
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\net7.0\DesignPatterns.deps.json
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\net7.0\DesignPatterns.runtimeconfig.json
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\net7.0\DesignPatterns.dll
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\bin\Debug\net7.0\DesignPatterns.pdb
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\DesignPatterns.genruntimeconfig.cache
+C:\Users\ricardo.bono\Documents\GitHub\DesignPatterns\DesignPatterns\DesignPatterns\obj\Debug\net7.0\ref\DesignPatterns.dll

@@ -22,7 +22,7 @@ namespace DesignPatterns
                 return 0.07 * orcamento.Valor;
             }
 
-            else if (orcamento.Valor > 3000.00)
+            else 
             {
                 return 0.08 * orcamento.Valor + extra;
             }
