@@ -4,8 +4,10 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using DesignPatterns.Orçamento;
+using DesignPatterns.Serviços;
 
-namespace DesignPatterns
+namespace DesignPatterns.Taxas
 {
     public class ICCC : Imposto
     {
@@ -22,7 +24,7 @@ namespace DesignPatterns
                 return 0.07 * orcamento.Valor;
             }
 
-            else 
+            else
             {
                 return 0.08 * orcamento.Valor + extra;
             }
