@@ -22,17 +22,18 @@ namespace DesignPatterns
 
         //    Console.ReadKey();
         //}
+
         static void Main(String[] args)
         {
             CalculadorDeDescontos calculador = new CalculadorDeDescontos();
 
-            Orcamento orcamento = new Orcamento(500.00);
-            orcamento.AdicionaItem(new Item("Lápis", 250.00));
-            orcamento.AdicionaItem(new Item("Borracha", 350.00));
-            orcamento.AdicionaItem(new Item("Apontador", 500.00));
-            orcamento.AdicionaItem(new Item("Régua", 450.00));
-            orcamento.AdicionaItem(new Item("Caneta", 550.00));
-            orcamento.AdicionaItem(new Item("Caneta", 550.00));
+            Orcamento orcamento = new Orcamento(100.00);
+            orcamento.AdicionaItem(new Item("Lápis", 90.00));
+            //orcamento.AdicionaItem(new Item("Borracha", 350.00));
+            //orcamento.AdicionaItem(new Item("Apontador", 500.00));
+            //orcamento.AdicionaItem(new Item("Régua", 450.00));
+            orcamento.AdicionaItem(new Item("Caneta", 90.00));
+            orcamento.AdicionaItem(new Item("Caneta", 90.00));
 
             double desconto = calculador.Calcula(orcamento);
 
@@ -41,5 +42,23 @@ namespace DesignPatterns
             Console.ReadKey();
 
         }
+
+        //static void Main(String[] args)
+        //{
+        //    Orcamento orcamento = new Orcamento(500.0);
+
+        //    IDesconto d1 = new DescontoPorCincoItens();
+        //    IDesconto d2 = new DescontoPorMaisDeQuinhentosReais();
+        //    IDesconto d3 = new DescontoPorVendaCasada();
+        //    IDesconto d4 = new SemDesconto();
+
+        //    d1.Proximo = d2;
+        //    d2.Proximo = d3;
+        //    d3.Proximo = d4;
+
+
+        //    double desconto = d1.Desconta(orcamento);
+        //    Console.WriteLine(desconto);
+        //}
     }
 }
