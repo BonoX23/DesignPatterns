@@ -7,8 +7,8 @@ using DesignPatterns.Orçamento;
 
 namespace DesignPatterns.Serviços
 {
-    public interface Imposto
+    public interface IImposto
     {
-        public double Calcula(Orcamento orçamento);
+        public double Calcula(Orcamento orcamento);
     }
 }

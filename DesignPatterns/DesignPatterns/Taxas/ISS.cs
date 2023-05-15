@@ -8,11 +8,11 @@ using DesignPatterns.Serviços;
 
 namespace DesignPatterns.Taxas
 {
-    public class ISS : Imposto
+    public class ISS : IImposto
     {
-        public double Calcula(Orcamento orçamento)
+        public double Calcula(Orcamento orcamento)
         {
-            return orçamento.Valor * 0.06;
+            return orcamento.Valor * 0.06;
         }
     }
 }

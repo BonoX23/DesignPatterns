@@ -9,7 +9,7 @@ using DesignPatterns.Serviços;
 
 namespace DesignPatterns.Taxas
 {
-    public class ICCC : Imposto
+    public class ICCC : IImposto
     {
         const double extra = 30.00;
         public double Calcula(Orcamento orcamento)

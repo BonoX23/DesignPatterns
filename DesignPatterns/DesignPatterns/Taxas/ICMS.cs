@@ -8,12 +8,12 @@ using DesignPatterns.Serviços;
 
 namespace DesignPatterns.Taxas
 {
-    public class ICMS : Imposto
+    public class ICMS : IImposto
     {
         public const double fixo = 50.00;
-        public double Calcula(Orcamento orçamento)
+        public double Calcula(Orcamento orcamento)
         {
-            return fixo + orçamento.Valor * 0.05;
+            return fixo + orcamento.Valor * 0.05;
         }
     }
 }
