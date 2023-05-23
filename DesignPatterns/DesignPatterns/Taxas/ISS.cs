@@ -10,9 +10,18 @@ namespace DesignPatterns.Taxas
 {
     public class ISS : IImposto
     {
-        public double Calcula(Orcamento orcamento)
+        public ISS(IImposto outroImposto) : base(outroImposto)
         {
-            return orcamento.Valor * 0.06;
+        }
+
+        public override double Calcula(Orcamento orcamento)
+        {
+            return orcamento.Valor * 0.06 + CalculaOutroImposto(orcamento);
+        }
+
+        private double CalculaOutroImposto(Orcamento orcamento)
+        {
+            return OutroImposto.Calcula(orcamento);
         }
     }
 }

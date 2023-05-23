@@ -7,8 +7,25 @@ using DesignPatterns.Orçamento;
 
 namespace DesignPatterns.Serviços
 {
-    public interface IImposto
+    public abstract class IImposto
     {
-        public double Calcula(Orcamento orcamento);
+        public readonly IImposto OutroImposto;
+
+        public IImposto(IImposto outroImposto)
+        {
+            OutroImposto = outroImposto;
+        }
+
+        public IImposto()
+        {
+            OutroImposto = null;
+        }
+
+        public double CalculaOutroImposto(Orcamento orcamento)
+        {
+            return OutroImposto == null ? 0 : OutroImposto.Calcula(orcamento);
+        }
+
+        public abstract double Calcula(Orcamento orcamento);
     }
 }

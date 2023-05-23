@@ -11,9 +11,19 @@ namespace DesignPatterns.Taxas
     public class ICMS : IImposto
     {
         public const double fixo = 50.00;
-        public double Calcula(Orcamento orcamento)
+
+        public ICMS(IImposto outroImposto) : base(outroImposto)
         {
-            return fixo + orcamento.Valor * 0.05;
+        }
+
+        public override double Calcula(Orcamento orcamento)
+        {
+            return fixo + (orcamento.Valor * 0.05) + CalculaOutroImposto(orcamento);
+        }
+
+        private double CalculaOutroImposto(Orcamento orcamento)
+        {
+            return OutroImposto.Calcula(orcamento);
         }
     }
 }

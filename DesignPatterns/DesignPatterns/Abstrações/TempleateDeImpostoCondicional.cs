@@ -8,13 +8,21 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Abstrações
 {
-    public class TempleateDeImpostoCondicional : IImposto
+    public abstract class TempleateDeImpostoCondicional : IImposto
     {
+        public TempleateDeImpostoCondicional(IImposto outroImposto) : base(outroImposto)
+        {
+        }
+
+        protected TempleateDeImpostoCondicional()
+        {
+        }
+
         public abstract bool DeveUsarMaximaTaxacao(Orcamento orcamento);
         public abstract double MaximaTaxacao (Orcamento orcamento);
         public abstract double MinimaTaxacao (Orcamento orcamento);
 
-        public double Calcula(Orcamento orcamento)
+        public override double Calcula(Orcamento orcamento)
         {
             if (DeveUsarMaximaTaxacao(orcamento))
             {
