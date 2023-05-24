@@ -17,7 +17,7 @@ namespace DesignPatterns.EstadoDeUmOrcamento
 
         public void Aprova(Orcamento orcamento)
         {
-            throw new Exception("Orcamento ja esta em estado de aprovacao")
+            throw new Exception("Orcamento ja esta em estado de aprovacao");
         }
         public void Reprova(Orcamento orcamento)
         {

@@ -14,18 +14,17 @@ namespace DesignPatterns.EstadoDeUmOrcamento
         {
             throw new Exception("Orçamentos reprovados não recebem desconto extra!");
         }
-
         public void Aprova(Orcamento orcamento)
         {
-            throw new NotImplementedException();
+            throw new Exception("Orcamento ja esta em estado de aprovacao");
         }
         public void Reprova(Orcamento orcamento)
         {
-            throw new NotImplementedException();
+            throw new Exception("Orcamento esta em aprovado, nao pode ser reprovado agora");
         }
         public void Finaliza(Orcamento orcamento)
         {
-            throw new NotImplementedException();
+            orcamento.EstadoAtual = new Finalizado();
         }
     }
 
