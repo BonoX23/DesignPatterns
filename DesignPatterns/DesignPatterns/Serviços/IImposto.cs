@@ -21,7 +21,7 @@ namespace DesignPatterns.Serviços
             OutroImposto = null;
         }
 
-        public double CalculaOutroImposto(Orcamento orcamento)
+        public virtual double CalculaOutroImposto(Orcamento orcamento)
         {
             return OutroImposto == null ? 0 : OutroImposto.Calcula(orcamento);
         }

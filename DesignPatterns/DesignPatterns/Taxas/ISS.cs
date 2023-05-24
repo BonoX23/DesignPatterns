@@ -19,7 +19,7 @@ namespace DesignPatterns.Taxas
             return orcamento.Valor * 0.06 + CalculaOutroImposto(orcamento);
         }
 
-        private double CalculaOutroImposto(Orcamento orcamento)
+        public override double CalculaOutroImposto(Orcamento orcamento)
         {
             return OutroImposto.Calcula(orcamento);
         }
